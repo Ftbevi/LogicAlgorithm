@@ -46,6 +46,7 @@ public class AppSatSolver {
 			break;
 		case 2:	
 			Tableaux tableaux = new Tableaux(sentencas2);
+			tableaux.arvoreDePremissas.mostrarArvore(tableaux.arvoreDePremissas.raiz);
 			break;
 		case 3:	
 			Resoluiton resoluiton = new Resoluiton(sentencas2);
@@ -72,5 +73,5 @@ public class AppSatSolver {
 		buffWrite.append(out2);
 		buffWrite.close();
 	}
-	
+
 }

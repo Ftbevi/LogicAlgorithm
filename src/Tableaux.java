@@ -5,7 +5,7 @@ public class Tableaux {
 	private ArrayList<ArrayList<Integer>> conjuntosPremissas = new ArrayList<>();
 	ArrayList<Integer> subconjunto;
 	ArvoreDePremissas arvoreDePremissas = new ArvoreDePremissas();
-	
+
 	public Tableaux(ArrayList<String> sentencas) {
 		this.sentencasArquivo = sentencas;
 		gerarConjuntosPremissas();
@@ -23,10 +23,7 @@ public class Tableaux {
 				this.arvoreDePremissas.premissas.add(this.subconjunto);
 				this.conjuntosPremissas.add(this.subconjunto);
 			}
-		}
-		System.out.println("----------------------------------------------");
-		System.out.println(this.arvoreDePremissas.premissas);
-		
+		}	
 	}
-
+	
 }

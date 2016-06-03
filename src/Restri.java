@@ -1,8 +1,8 @@
 import java.io.IOException;
 
 public class Restri {
-	private final int NUM_VARS = 4;
-	private final int SQUARE_SIZE = 4;
+	private final int NUM_VARS = 9;
+	private final int SQUARE_SIZE = 9;
 	private StringBuffer out;
 	private int contadorAtomicas;
 	private int contadorClausulas = contadorAtomicas;

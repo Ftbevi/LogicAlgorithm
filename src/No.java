@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 
 public class No {
-	
 	ArrayList<Integer> valor = new ArrayList<>();
 	ArrayList<No> filhos = new ArrayList<>() ;
 	No pai;
@@ -13,5 +12,4 @@ public class No {
 		this.valor = valor;
 		this.pai = null;
 	}
-
 }
